@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function Subscribe({ setSubscribed }) {
+function Write({ setSubscribed }) {
   const [email, setEmail] = useState('')
 
   async function postToNotion(e) {
