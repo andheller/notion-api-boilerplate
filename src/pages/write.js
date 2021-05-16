@@ -1,10 +1,9 @@
-import { useState } from 'react'
-import Subscribe from '@/components/Write'
+//import { useState } from 'react'
+import Write from 'components/write'
 
-function IndexPage() {
-  const [subscribed, setSubscribed] = useState(false)
+//function IndexPage() { const [subscribed, setSubscribed] = useState(false)
 
-import React from "react";
+//import React from "react";
 import HeroSection2 from "components/HeroSection2";
 
 function WritePage(props) {
