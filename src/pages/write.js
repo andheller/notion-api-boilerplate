@@ -1,3 +1,9 @@
+import { useState } from 'react'
+import Subscribe from '@/components/Write'
+
+function IndexPage() {
+  const [subscribed, setSubscribed] = useState(false)
+
 import React from "react";
 import HeroSection2 from "components/HeroSection2";
 
@@ -10,7 +16,7 @@ function WritePage(props) {
       bgImage=""
       bgImageOpacity={1}
       title="Write"
-      subtitle="This landing page is perfect for showing off your awesome product and driving people to sign up for a paid plan."
+      subtitle="Write to a Notion Database"
     />
   );
 }
